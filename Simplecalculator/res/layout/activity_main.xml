@@ -1,0 +1,68 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+     <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="47dp"
+        android:layout_y="57dp"
+        android:ems="10"
+        android:inputType="number"
+         android:text="First Number" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="52dp"
+        android:layout_y="107dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Second Number" />    
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="245dp"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/mult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="333dp"
+        android:text="Multiply" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="199dp"
+        android:layout_y="246dp"
+        android:text="Subtract" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="214dp"
+        android:layout_y="326dp"
+        android:text="Divide" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="99dp"
+        android:layout_y="187dp"
+        android:text="YO THIS BE A NUMBER"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</AbsoluteLayout>
